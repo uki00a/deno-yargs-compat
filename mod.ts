@@ -1,3 +1,4 @@
+import "https://deno.land/std@v0.36.0/node/global.ts"
 import * as DenoFS from "https://deno.land/std@v0.36.0/fs/mod.ts"
 import * as path from "https://deno.land/std@v0.36.0/path/mod.ts"
 import { process } from "https://deno.land/std@v0.36.0/node/process.ts"
