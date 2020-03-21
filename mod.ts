@@ -45,6 +45,10 @@ export function nextTick(): Promise<void> {
   });
 }
 
+export function isNotFoundError(error: any): boolean {
+  return error instanceof Deno.errors.NotFound;
+}
+
 export { path, process, fs, util }
 
 (require as any).resolve = (): void => {
